@@ -32,7 +32,7 @@ while len(guessed_countries) < 55:
         t.goto(int(country_data.x), int(country_data.y))
         # t.write(state_data.state.item())
         t.write(answer_country)
-    # create a turtle to write the name of the state at state's x and y coordinates
+    # create a turtle to write the name of the country at country's x and y coordinates
 
 
 def get_mouse_click_oor(x, y):
